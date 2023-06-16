@@ -1,0 +1,98 @@
+body{
+    background-color:rgb(238, 214, 206);
+margin: 0;
+box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    margin-left: 50rem;
+    position: fixed;
+    color: rgb(3, 29, 32);
+}
+.menu li{
+    list-style: none;
+    padding:1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 29, 32);
+    margin-bottom: 3rem;
+} 
+.menu a{
+    text-decoration: none;
+    color: rgb(3, 29, 32);
+    font-size: 1.2rem;
+}
+.menu a:hover{
+    border-bottom: 2px solid rgb(29, 221, 247);
+}
+.sidebar{
+    display: block;
+    padding-top: 10vh;
+    background-color: rgb(3, 29, 32);
+    color: white;
+    width: 20vh;
+border-radius: 25cm;
+height: 100%;
+position: fixed;
+box-shadow: 10px;
+
+}
+.sidebar li{
+   color: aqua;
+   padding: 4vh;
+}
+.sidebar li:hover{
+    background-color: rgb(238, 214, 206);
+    color:rgb(3, 29, 32); 
+    border-radius: 50cm;
+}
+.dash{
+    background-color: rgb(3, 29, 32);
+    color: white;
+    margin-top: 0;
+    text-align: center;
+}
+/* .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 20%;
+    display: grid;
+    max-width: 960px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 15px;
+    padding-left: 7cm;
+} */
+
+.grid{
+    padding-top: 20%;
+    max-width: 960px;
+    padding-left: 7cm;
+}
+
+.item1{
+    background-color: rgb(3, 29, 32);
+    border: 1px white solid;
+    color: white;
+    padding: 20px;
+    font-size: 15pt;
+    border-radius: 50cm;
+    cursor: pointer;
+    max-height: max-content;
+    width: 43%;
+    margin-left: 20px;
+    display: inline-block;
+    align-items: flex-start;
+}
+.item li{
+    text-decoration: none;
+}
+.item1:hover{
+    color: yellow;
+    background-color: black;
+}
+.dash li{
+    text-decoration: none;
+    color: white;
+
+}
